@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "develop": "nodemon yarn start"
+    "develop": "nodemon yarn start",
+    "build": "src/scripts/build"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
