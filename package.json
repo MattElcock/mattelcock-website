@@ -1,8 +1,22 @@
 {
+  "name": "mattelcock",
+  "description": "A personal website",
+  "author": "Matthew Elcock",
+  "version": "0.0.1",
+  "repository": "https://github.com/MattElcock/mattelcock-website",
+  "main": "app.js",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "develop": "nodemon yarn start",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
   }
 }
